@@ -15,5 +15,6 @@ A simple CLI tool to archive system logs by compressing them into a `.tar.gz` fi
 1. Clone this repository:
    ```bash
    git clone https://github.com/<your-username>/log-archive-tool.git
+   https://roadmap.sh/projects/log-archive-tool
    cd log-archive-tool
 
