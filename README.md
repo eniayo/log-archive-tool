@@ -1,4 +1,5 @@
-Log Archive Tool
+** Log Archive Tool **
+
 This project provides a CLI-based tool to efficiently archive logs, compress them, and manage their storage. Designed for Linux-based systems, the tool ensures logs are archived systematically to keep your server clean, organized, and running efficiently.
 
 Features
@@ -20,33 +21,22 @@ Bash shell
 curl (for future remote functionality)
 Installation
 Clone the Repository
-bash
-Copy
-Edit
+
 git clone https://github.com/eniayo/log-archive-tool.git
 cd log-archive-tool
 Make the Script Executable
-bash
-Copy
-Edit
+
 chmod +x log-archive.sh
 Run the Script
 To archive logs:
 
-bash
-Copy
-Edit
+
 sudo ./log-archive.sh /var/log
 For directories other than /var/log, replace the path with your desired log directory.
 
 Usage Instructions
 Running the Script: The tool can be executed from the command line. Ensure the script is run with sudo to avoid permission issues for system directories like /var/log.
 
-Example:
-
-bash
-Copy
-Edit
 sudo ./log-archive.sh /var/log
 Log Archiving:
 
